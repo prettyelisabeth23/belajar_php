@@ -1,0 +1,51 @@
+# Variabel dan Operator pada PHP
+
+## Deskripsi
+
+Program ini merupakan latihan dasar PHP yang membahas penggunaan variabel, tipe data, dan operator dalam pengolahan data. Program ini menunjukkan bagaimana data disimpan dalam variabel, digunakan dalam perhitungan matematika, serta bagaimana nilai variabel dapat ditambah atau dikurangi.
+
+## Penjelasan Program
+
+Program diawali dengan struktur HTML sederhana yang digunakan untuk menjalankan kode PHP pada halaman web. Variabel `$nama` dan `$nama2` digunakan untuk menyimpan data berupa teks. Selanjutnya, `$num1` dan `$num2` menyimpan angka dalam bentuk string. Kedua nilai tersebut kemudian digabungkan menggunakan operator titik (`.`) dan ditampilkan menggunakan `echo`.
+
+Program kemudian membuat beberapa variabel dengan tipe data numerik. Variabel `$angka` menyimpan nilai integer `100`, sedangkan `$angka2` menyimpan nilai float `20.50`. Sementara itu, `$angka3` dan `$angka4` masing-masing memiliki nilai `5` dan `8`.
+
+Nilai dari beberapa variabel tersebut digunakan untuk melakukan operasi aritmatika yang disimpan dalam variabel `$hasil`. Operasi tersebut menggunakan penjumlahan, perkalian, pembagian, dan pengurangan. PHP mengikuti aturan prioritas operasi matematika, sehingga perkalian dan pembagian dilakukan terlebih dahulu sebelum penjumlahan dan pengurangan.
+
+Selanjutnya, program menggunakan operator `*=` untuk memperbarui nilai `$angka`. Perintah `$angka *= $angka3` berarti nilai `$angka` dikalikan dengan nilai `$angka3`, kemudian hasilnya disimpan kembali ke variabel `$angka`.
+
+Setelah itu, program menggunakan operator increment (`++`) untuk menambahkan nilai `$angka` sebesar satu. Kemudian operator decrement (`--`) digunakan untuk mengurangi nilai `$angka` sebesar satu. Setiap hasil perubahan nilai ditampilkan menggunakan `echo`.
+
+## Operator yang Digunakan
+
+**Operator titik (`.`)**
+Digunakan untuk menggabungkan dua teks atau nilai menjadi satu output.
+
+**Operator penjumlahan (`+`)**
+Digunakan untuk menjumlahkan dua nilai.
+
+**Operator pengurangan (`-`)**
+Digunakan untuk mengurangi suatu nilai dengan nilai lainnya.
+
+**Operator perkalian (`*`)**
+Digunakan untuk mengalikan dua nilai.
+
+**Operator pembagian (`/`)**
+Digunakan untuk membagi suatu nilai dengan nilai lainnya.
+
+**Operator assignment perkalian (`*=`)**
+Digunakan untuk mengalikan nilai suatu variabel dengan nilai lain dan menyimpan hasilnya kembali ke variabel tersebut.
+
+**Operator increment (`++`)**
+Digunakan untuk menambahkan nilai variabel sebanyak satu.
+
+**Operator decrement (`--`)**
+Digunakan untuk mengurangi nilai variabel sebanyak satu.
+
+## Konsep yang Dipelajari
+
+Program ini membantu memahami beberapa konsep dasar PHP, yaitu penggunaan variabel, tipe data string, integer, dan float, operasi aritmatika, penggabungan data, serta penggunaan operator assignment, increment, dan decrement.
+
+## Kesimpulan
+
+Program ini memberikan contoh sederhana mengenai penggunaan variabel dan operator dalam PHP. Melalui program tersebut, dapat dipahami bagaimana data disimpan dalam variabel, digunakan dalam perhitungan, serta diubah menggunakan berbagai operator sesuai dengan kebutuhan program.
