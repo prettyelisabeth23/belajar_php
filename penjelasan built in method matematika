@@ -1,0 +1,27 @@
+# Variabel dan Fungsi PHP
+
+## Deskripsi
+
+Program ini merupakan latihan dasar PHP yang menunjukkan penggunaan **variabel dan beberapa fungsi bawaan PHP**. Program digunakan untuk menampilkan teks, membuat angka secara acak, membulatkan bilangan desimal, serta mencari nilai paling besar dari beberapa angka.
+
+## Penjelasan Program
+
+Pada program ini, PHP digunakan bersama dengan HTML untuk membuat halaman web sederhana. Variabel `$nama` digunakan untuk menyimpan teks `"Belajar PABI"`, kemudian nilai tersebut ditampilkan menggunakan perintah `echo` sehingga menghasilkan kalimat sambutan pada halaman web.
+
+Program kemudian menyimpan dua bilangan desimal ke dalam variabel `$angka` dan `$angka2`. Untuk mendapatkan bilangan secara acak, digunakan fungsi `rand(0, 100)` yang menghasilkan angka dengan rentang 0 hingga 100 dan menyimpannya pada variabel `$num`.
+
+Selanjutnya, fungsi `round()` digunakan untuk membulatkan bilangan desimal menjadi bilangan bulat. Hasil pembulatan dari `$angka` dan `$angka2` disimpan masing-masing pada `$num2` dan `$num3`. Ketiga nilai tersebut kemudian ditampilkan menggunakan `echo`.
+
+Pada bagian akhir, fungsi `max()` digunakan untuk membandingkan nilai `$num`, `$num2`, dan `$num3`. Fungsi tersebut akan menghasilkan nilai yang paling besar, kemudian hasilnya ditampilkan sebagai informasi angka terbesar.
+
+## Fungsi yang Digunakan
+
+* **`echo`** digunakan untuk menampilkan teks atau nilai ke halaman web.
+* **`rand()`** digunakan untuk menghasilkan angka secara acak berdasarkan rentang yang ditentukan.
+* **`round()`** digunakan untuk membulatkan nilai desimal.
+* **`max()`** digunakan untuk mendapatkan nilai terbesar dari beberapa angka.
+* **`<br>`** digunakan untuk membuat baris baru pada tampilan halaman.
+
+## Kesimpulan
+
+Melalui program ini, dapat dipahami penggunaan variabel dan fungsi dasar dalam PHP. Program juga memberikan contoh bagaimana PHP dapat digunakan untuk mengolah data, seperti menghasilkan angka acak, melakukan pembulatan, membandingkan beberapa nilai, dan menampilkan hasilnya pada halaman web.
