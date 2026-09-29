@@ -1,0 +1,29 @@
+# Array dan Fungsi Array pada PHP
+
+## Deskripsi
+
+Program ini dibuat untuk mempelajari konsep **array pada PHP** serta beberapa fungsi yang dapat digunakan untuk mengolah data di dalam array. Data yang disimpan terdiri dari nama hewan dan kumpulan angka. Program kemudian melakukan beberapa proses terhadap data tersebut, seperti menghilangkan data yang sama, mengubah urutan data, mengacak isi array, dan menghitung jumlah data.
+
+## Penjelasan Program
+
+Pada bagian awal, program membuat halaman HTML sederhana dan menjalankan kode PHP di dalam bagian `<body>`. Variabel `$nama` digunakan untuk menyimpan teks `"Belajar PABI"`, kemudian ditampilkan ke halaman menggunakan perintah `echo`.
+
+Setelah itu, program membuat tiga buah array, yaitu `$kandang`, `$kandang2`, dan `$angka`. Array `$kandang` dan `$kandang2` berisi beberapa nama hewan, sedangkan `$angka` berisi kumpulan bilangan. Array `$kandang` memiliki data `"anjing"` yang ditulis lebih dari satu kali. Untuk menghilangkan data yang sama tersebut, digunakan fungsi `array_unique()` dan hasilnya ditampilkan dengan `print_r()`.
+
+Program berikutnya menggunakan fungsi `array_reverse()` untuk mengubah susunan elemen pada `$kandang2` menjadi urutan terbalik. Kemudian fungsi `shuffle()` digunakan untuk mengacak posisi setiap elemen dalam array. Oleh karena proses pengacakan dilakukan secara acak, susunan data yang ditampilkan dapat berubah setiap kali program dijalankan.
+
+Pada bagian terakhir, fungsi `count()` digunakan untuk mengetahui jumlah elemen yang terdapat dalam array `$kandang`. Nilai hasil perhitungan kemudian ditampilkan menggunakan `echo`.
+
+## Fungsi PHP yang Digunakan
+
+* **`echo`** berfungsi untuk menampilkan teks atau hasil proses ke halaman web.
+* **`print_r()`** digunakan untuk menampilkan isi array.
+* **`array_unique()`** digunakan untuk menghapus nilai yang memiliki duplikat.
+* **`array_reverse()`** digunakan untuk membalik susunan elemen dalam array.
+* **`shuffle()`** digunakan untuk mengubah urutan elemen array secara acak.
+* **`count()`** digunakan untuk menghitung banyaknya elemen yang terdapat dalam array.
+* **`<br>`** digunakan untuk memberikan jarak atau membuat baris baru pada halaman web.
+
+## Kesimpulan
+
+Dari program ini dapat dipahami bahwa array pada PHP dapat digunakan untuk menyimpan banyak data dalam satu variabel. PHP juga menyediakan berbagai fungsi untuk mempermudah pengolahan array, seperti menghapus data yang sama, membalik urutan, mengacak data, dan menghitung jumlah elemen. Program ini menjadi contoh sederhana untuk memahami penggunaan dan manipulasi array dalam PHP.
