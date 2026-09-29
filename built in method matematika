@@ -1,0 +1,44 @@
+//Nama: Pretty Elisabeth Hutapea 
+//NIM : 43325013
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP itu Mudah</title>
+</head>
+
+<body>
+
+    <?php
+
+    // variabel pada PHP
+    $nama = "Belajar PABI";
+
+    // akses nilai pada variabel
+    echo "Selamat datang di $nama <br>";
+
+    $angka = 2.44;
+    $angka2 = 2.62;
+
+    $num = rand(0, 100);
+
+    // round (minimum_value, max_value);
+    $num2 = round($angka);
+    $num3 = round($angka2);
+
+    echo $num . "<br>";
+    echo $num2 . "<br>";
+    echo $num3 . "<br>";
+
+    $maksimum = max($num, $num2, $num3);
+
+    echo "Angka terbesar adalah dari sampel diatas adalah angka: " . $maksimum;
+
+    ?>
+
+</body>
+
+</html>
