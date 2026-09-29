@@ -1,0 +1,35 @@
+# Perulangan dan Akses Array pada PHP
+
+## Deskripsi
+
+Program ini merupakan latihan dasar PHP yang membahas penggunaan **array dan perulangan `for`**. Program menunjukkan bagaimana data yang tersimpan dalam array dapat diakses satu per satu menggunakan perulangan. Selain itu, program juga memberikan contoh penggunaan perulangan dengan batas jumlah tertentu.
+
+## Penjelasan Program
+
+Program dimulai dengan struktur HTML sederhana yang digunakan sebagai halaman untuk menjalankan kode PHP. Variabel `$nama` berisi teks `"Belajar PABI"` dan ditampilkan menggunakan `echo` sebagai pesan pembuka pada halaman.
+
+Selanjutnya, program membuat array bernama `$sayang` yang berisi beberapa data berupa `"sayang ibu"`, `"sayang ayah"`, `"sayang kaka"`, dan `"sayang adik"`. Setiap data tersebut memiliki posisi atau indeks yang dimulai dari angka `0`.
+
+Program kemudian menggunakan perulangan `for` pertama untuk menampilkan kalimat `"Aku anak baik"` sebanyak lima kali. Variabel `$i` digunakan sebagai penghitung perulangan. Perulangan dimulai dari `$i = 0` dan terus berjalan selama nilai `$i` kurang dari `5`. Setiap selesai melakukan satu perulangan, nilai `$i` bertambah satu menggunakan `$i++`.
+
+Perulangan `for` kedua digunakan untuk mengakses setiap elemen yang terdapat dalam array `$sayang`. Fungsi `count($sayang)` digunakan untuk mengetahui jumlah elemen dalam array sehingga perulangan dapat berjalan sesuai dengan jumlah data yang tersedia. Setiap elemen diakses menggunakan `$sayang[$i]` dan kemudian ditampilkan menggunakan `echo`.
+
+## Konsep yang Dipelajari
+
+**Array** digunakan untuk menyimpan beberapa data dalam satu variabel.
+
+**Indeks array** digunakan untuk mengakses setiap elemen. Pada PHP, indeks array dimulai dari `0`.
+
+**Perulangan `for`** digunakan untuk menjalankan suatu perintah secara berulang berdasarkan kondisi tertentu.
+
+**Variabel `$i`** berfungsi sebagai penghitung atau indeks dalam proses perulangan.
+
+**Fungsi `count()`** digunakan untuk mengetahui jumlah elemen yang terdapat di dalam array.
+
+**Operator `++`** digunakan untuk menambahkan nilai variabel sebesar satu pada setiap proses perulangan.
+
+**`echo`** digunakan untuk menampilkan teks atau data array ke halaman web.
+
+## Kesimpulan
+
+Program ini menunjukkan cara menggunakan perulangan `for` dalam PHP untuk menampilkan data secara berulang dan mengakses elemen array satu per satu. Dengan memanfaatkan `count()` dan indeks array, proses menampilkan seluruh isi array dapat dilakukan secara otomatis tanpa harus menuliskan setiap elemen secara manual.
