@@ -1,0 +1,57 @@
+//Nama: Pretty Elisabeth Hutapea 
+//NIM : 43325013
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar PHP</title>
+</head>
+
+<body>
+
+<?php
+
+// Variabel pada PHP
+$nama = "Belajar PABI";
+
+// Akses nilai pada variabel
+echo "Selamat datang di $nama <br>";
+
+// Metode Array
+$kandang = array('anjing', 'kura-kura', 'koala', 'Anjing');
+
+$kandang2 = array(
+    'anjing',
+    'koala',
+    'cacing',
+    'banteng',
+    'semut'
+);
+
+$angka = [5, 10, 3, 12, 7, 21];
+
+// Menghapus data yang duplikat
+print_r(array_unique($kandang));
+echo "<br>";
+
+// Membalik urutan array
+print_r(array_reverse($kandang2));
+echo "<br>";
+
+// Mengacak urutan array
+shuffle($kandang2);
+print_r($kandang2);
+echo "<br>";
+
+// Menghitung jumlah data dalam array
+echo count($kandang);
+echo "<br>";
+
+?>
+
+</body>
+
+</html>
