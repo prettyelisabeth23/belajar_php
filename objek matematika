@@ -1,0 +1,65 @@
+//Nama: Pretty Elisabeth Hutapea
+// NIM: 43325013
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PHP itu Mudah</title>
+</head>
+
+<body>
+
+    <?php
+
+    // variabel pada PHP
+    $nama = "belajar PABI";
+    $nama2 = "sambil mendengar lagu";
+
+    $num1 = "1000";
+    $num2 = "900";
+
+    // akses nilai pada variabel
+    echo "Selamat datang di $nama <br>";
+
+    echo $num1 . $num2 . "<br>";
+
+    // variabel dengan tipe data integer
+    $angka = 100;
+
+    // variabel dengan tipe float
+    $angka2 = 20.50;
+
+    $angka3 = 5;
+    $angka4 = 8;
+
+    /*
+    Pemberian nilai dari sebuah variabel dapat dioperasikan
+    dengan nilai sebelumnya dan variabel lain.
+    Sesuaikan hasil/output dengan urutan operasi matematika.
+    */
+
+    $hasil = $angka + $angka2 * $angka3 / $angka4 - $angka3;
+
+    // Penulisan $angka = $angka + $angka3;
+    // dapat disingkat menjadi:
+    $angka *= $angka3;
+
+    echo $hasil . "<br>";
+    echo $angka . "<br>";
+
+    // operator increment
+    $angka++;
+    echo $angka . "<br>";
+
+    // operator decrement
+    $angka--;
+    echo $angka . "<br>";
+
+    ?>
+
+</body>
+
+</html>
