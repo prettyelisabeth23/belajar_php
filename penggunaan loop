@@ -1,0 +1,44 @@
+//Nama: Pretty Elisabeth Hutapea 
+//NIM : 43325013
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Belajar PHP</title>
+</head>
+
+<body>
+
+<?php
+
+// Variabel pada PHP
+$nama = "Belajar PABI";
+
+// Akses nilai pada variabel
+echo "Selamat datang di $nama <br>";
+
+// ----- Akses Elemen Array dengan Loop -----
+
+$sayang = [
+    'sayang ibu',
+    'sayang ayah',
+    'sayang kaka',
+    'sayang adik'
+];
+
+for ($i = 0; $i < 5; $i++) {
+    echo "Aku anak baik <br>";
+}
+
+for ($i = 0; $i < count($sayang); $i++) {
+    echo $sayang[$i] . "<br>";
+}
+
+?>
+
+</body>
+
+</html>
